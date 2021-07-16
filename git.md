@@ -90,6 +90,12 @@ git revert HEAD~2  # look at changes from 2nd-to-last commit; undo these changes
 
 Like with git merge, this is the safer option to use on public repositories.
 
+### Checkout
+
+```shell
+git checkout HEAD~2 foo.py  # change foo.py in working directory to version from 2nd-to-last commit
+```
+
 ## Stash
 
 https://www.atlassian.com/git/tutorials/saving-changes/git-stash
