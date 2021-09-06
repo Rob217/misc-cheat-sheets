@@ -96,6 +96,14 @@ Like with git merge, this is the safer option to use on public repositories.
 git checkout HEAD~2 foo.py  # change foo.py in working directory to version from 2nd-to-last commit
 ```
 
+## Clean
+
+```shell
+git clean -f  # remove local untracked files
+git clean -n  # list which files will be removed
+git clean -fd  # remove directories also
+```
+
 ## Stash
 
 https://www.atlassian.com/git/tutorials/saving-changes/git-stash
