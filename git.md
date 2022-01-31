@@ -146,3 +146,13 @@ git log --oneline  # single line per commit
 git log --decorate  # include branch/tag information
 git log -- foo.py bar.py  # commits for specific files
 ```
+
+## Tags
+
+```shell 
+git tag -a tag_name -m "Tag message"  # add a tag
+git push --tags  # push tags to remote
+git tag -l  # list tags
+git tag -d tag_name  # delete local tag
+git push --delete origin tag_name  # delete remote tag
+```
