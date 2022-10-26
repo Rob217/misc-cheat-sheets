@@ -2,6 +2,14 @@
 
 Many of these commands were taken from the [Atlassian git tutorials](https://www.atlassian.com/git/tutorials).
 
+## Listing branches
+
+List branches by most recent commit (descending)
+```shell
+git branch --sort=-committerdate  # local branches
+git branch --sort=-committerdate -r  # remote branches
+```
+
 ## Merging vs rebasing
 
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
